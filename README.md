@@ -1,19 +1,34 @@
 # Rumbl
 
-To start your Phoenix server:
+Aplicação WEB feita no framework Phoenix, seguindo instruções do livro _Programming Phoenix >= 1.4_ (Chris McCord, Bruce Tate e Jose Valim).
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Stack
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+ * Elixir 1.16.0.
+ * Phoenix Installer v1.6.16.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Configuração
 
-## Learn more
+1. Clone o repositório:
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+```git clone git@github.com:aldeoliveira/elixir_rumbl.git.git```
+
+2. Instale as dependências:
+
+```mix deps.get```
+
+4. Crie a database e execute as migrações:
+
+```mix ecto.setup```
+
+5. Sirva a aplicação com:
+
+```mix phx.server```
+
+6. Agora acesse [`localhost:4000`](http://localhost:4000) no seu navegador.
+
+## Licença
+
+MIT.
+
+**_Bom proveito!_**
