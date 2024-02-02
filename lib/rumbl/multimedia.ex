@@ -42,7 +42,7 @@ defmodule Rumbl.Multimedia do
   def get_user_video!(%Accounts.User{} = user, id) do
     Video
     |> user_videos_query(user)
-    |> Repo.get(id)
+    |> Repo.get!(id)
   end
 
   def create_category!(name) do
